@@ -35,12 +35,12 @@ body {
 	border-style: solid;
 }
 
-.letters p:nth-child(even):hover {
+.letters:hover p:nth-child(even) {
 	transform: rotateY(360deg);
 	transition: 0.5s;
 }
 
-.letters p:nth-child(odd):hover {
+.letters:hover p:nth-child(odd) {
 	transform: rotateX(360deg);
 	transition: 1.5s;
 }
